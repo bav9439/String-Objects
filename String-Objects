@@ -1,0 +1,38 @@
+class StringsDemo {
+	public static void main(String[] args) {
+		String myName = "Petronius";
+
+		myName = myName + " Arbiter";
+		System.out.println("Name = " + myName);
+	}
+}
+
+
+class BetterStringsDemo {
+	public static void main)String[] args) {
+		String myName = "Petronius";
+		String occupation = "Reorganization Specialist";
+
+		myName += " Arbiter";
+		myName += " ";
+		myName += "(" + occupation + ")";
+		System.out.println("Name = " + myName);
+	}
+}
+
+
+str = "redwood";
+// ... do something with str...
+str = "oak";
+
+
+if (oneStr.equals(twoStr))
+	foundDuplicate(oneStr, twoStr);
+
+
+	System.out.printf("The value of Math.PI is %.3f %n", Math.PI);
+
+The value of Math.PI is 3.142
+
+using println you would get: The value of Math.PI is 3.141592653589793
+
